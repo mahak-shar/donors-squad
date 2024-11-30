@@ -1,0 +1,202 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+    height: 62vh;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.logo {
+    max-height: 60px;
+}
+
+.nav a {
+    padding:12px 12px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    
+}
+.nav a:hover{
+    background-color: red;
+    transition: all ease 0.3s;
+    color: white;
+}
+/* .nav:hover{
+    background-color: red;
+    transition: all ease 0.3s;
+    color: white;
+} */
+
+.login-btn {
+    color: red;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.dropdowns select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.dropdowns{
+    display: flex;
+    gap: 22px;
+}
+
+.search-btn {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-btn:hover {
+    background-color: darkred;
+}
+
+/* Info section */
+.info {
+    text-align: left;
+    font-size: 21px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+.blood-stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.blood-stock-table th,
+.blood-stock-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.blood-stock-table th {
+    background-color: red;
+    font-weight: bold;
+}
+
+.blood-stock-table tbody tr {
+    background-color: #f9f9f9;
+}
+
+.blood-stock-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 20px 0;
+    margin-top:41px ;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
