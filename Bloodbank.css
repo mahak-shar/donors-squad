@@ -1,0 +1,117 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Bar Section */
+.bar {
+  background-color: #d63031;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.bar h1 {
+  font-size: 1.8em;
+}
+
+/* Menu Bar */
+.menu-bar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.menu-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.menu-bar a:hover {
+  color: #d63031;
+}
+
+/* Blood Request Section */
+.request-blood {
+  background-color: #fff;
+  padding: 40px 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.request-blood h2 {
+  color: #d63031;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Label Styling */
+form label {
+  display: block; /* Ensures the label appears on a new line */
+  margin-bottom: 10px; /* Adds space below each label */
+  font-weight: bold; /* Makes the label text bold */
+  font-size: 1.1em; /* Increases font size for better readability */
+  color: #333; /* Slightly darker color for better contrast */
+}
+
+/* Input and Select Styling */
+form select, form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Button Styling */
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #d63031;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #b71c1c;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
