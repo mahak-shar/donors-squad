@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .important-text {
+        color: red;
+      }
+      .btn-red {
+        background-color: red;
+        border-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="important-text">Donor Registration</h2>
+      <form>
+        <div class="form-group">
+          <label for="name" class="important-text">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email" class="important-text">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password" class="important-text">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="age" class="important-text">Age</label>
+          <input
+            type="number"
+            class="form-control"
+            id="age"
+            placeholder="Enter your age"
+          />
+        </div>
+        <h2 class="important-text">Medical Details</h2>
+        <div class="form-group">
+          <label for="bloodGroup" class="important-text">Blood Group</label>
+          <input
+            type="text"
+            class="form-control"
+            id="bloodGroup"
+            placeholder="Enter your blood group"
+          />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="weight" class="important-text">Weight (kg)</label>
+            <input
+              type="number"
+              class="form-control"
+              id="weight"
+              placeholder="Enter your weight"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="height" class="important-text">Height (cm)</label>
+            <input
+              type="number"
+              class="form-control"
+              id="height"
+              placeholder="Enter your height"
+            />
+          </div>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="diabetic" />
+          <label class="form-check-label important-text" for="diabetic"
+            >Are you diabetic?</label
+          >
+        </div>
+        <div class="form-group">
+          <label for="medicalHistory" class="important-text"
+            >Medical History</label
+          >
+          <textarea
+            class="form-control"
+            id="medicalHistory"
+            rows="3"
+            placeholder="Enter your medical history"
+          ></textarea>
+        </div>
+        <h2 class="important-text">Address Details</h2>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="state" class="important-text">State</label>
+            <select class="form-control" id="state">
+              <option value="">Select your state</option>
+              <option value="state1">State 1</option>
+              <option value="state2">State 2</option>
+              <option value="state3">State 3</option>
+              <!-- Add more states as needed -->
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="city" class="important-text">City</label>
+            <input
+              type="text"
+              class="form-control"
+              id="city"
+              placeholder="Enter your city"
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="area" class="important-text">Area</label>
+            <input
+              type="text"
+              class="form-control"
+              id="area"
+              placeholder="Enter your area"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="pinCode" class="important-text">Pin Code</label>
+          <input
+            type="text"
+            class="form-control"
+            id="pinCode"
+            placeholder="Enter your pin code"
+            pattern="\d{6}"
+            maxlength="6"
+          />
+        </div>
+        <button type="submit" class="btn btn-red">Register</button>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
